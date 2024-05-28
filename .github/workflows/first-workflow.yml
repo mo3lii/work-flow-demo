@@ -7,8 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
       - name: Print text
         run: echo "Hello, this is a text message printed by GitHub Actions on push!"
